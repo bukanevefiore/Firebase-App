@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "852414983755",
+    "project_id": "flutterfirebaseapps-3519e",
+    "storage_bucket": "flutterfirebaseapps-3519e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852414983755:android:5ca254fddd1d7ff121e7ce",
+        "android_client_info": {
+          "package_name": "melisnur.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852414983755-qgs1n83qglbmkirrb6ji23dvse0417cu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "melisnur.firebaseapp",
+            "certificate_hash": "a4fd26d0f27399ef8962bcca4cd480f3dd6b3c23"
+          }
+        },
+        {
+          "client_id": "852414983755-0e3cab6sfol18h61fpknnmvt2g5soava.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtJo6wMYrhqvLrk6f8OdVXbrjYsQYpnaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852414983755-0e3cab6sfol18h61fpknnmvt2g5soava.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
