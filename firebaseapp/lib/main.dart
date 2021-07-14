@@ -1,4 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebaseapp/firestore_islemleri.dart';
 import 'package:firebaseapp/login_islemleri.dart';
 import 'package:flutter/material.dart';
 
@@ -47,7 +48,20 @@ class _AppState extends State<App> {
 
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
-          return LoginIslemleri();
+          return Container(
+            color: Colors.white,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  RaisedButton(onPressed: (){
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginIslemleri()));
+                  },child: Text("Login İşlemleri"),color: Colors.deepPurple,),
+                  RaisedButton(onPressed: (){
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => FirestoreIslemleri()));
+                  },child: Text("FireStore İşlemleri"),color: Colors.teal,),
+                ],
+              ),
+          );
 
         }
 
